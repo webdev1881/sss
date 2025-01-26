@@ -7,13 +7,13 @@ import fs from 'fs'
 
 // https://vite.dev/config/
 export default defineConfig({
-  server: {
-    https: {
-      key: fs.readFileSync('D:/IWIS/sms/sss/sss/localhost-key.pem'),
-      cert: fs.readFileSync('D:/IWIS/sms/sss/sss/localhost.pem')
-    },
-    port: 8080
-  },
+  // server: {
+  //   https: {
+  //     key: fs.readFileSync('D:/IWIS/sms/sss/sss/localhost-key.pem'),
+  //     cert: fs.readFileSync('D:/IWIS/sms/sss/sss/localhost.pem')
+  //   },
+  //   port: 8080
+  // },
   plugins: [
     vue(),
     VitePWA({
